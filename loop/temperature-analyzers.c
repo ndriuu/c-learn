@@ -45,7 +45,8 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
-    int rooms, resMorning = 0, resAfternoon = 0, resEvening = 0;
+    int rooms;
+    long int resMorning = 0, resAfternoon = 0, resEvening = 0;
     printf("Enter the number of rooms: ");scanf("%d",&rooms);
     for (int i = 1; i <= rooms; i++)
     {
